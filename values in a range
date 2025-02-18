@@ -1,0 +1,3 @@
+random_vector <- sample(-50:50, 10, replace = FALSE)  
+print("Random vector :")
+print(random_vector)
