@@ -13,5 +13,5 @@ primes_upto_n <- function(n) {
 }
 n1 <- 100
 prime_numbers_alt <- primes_upto_n(n1)
-print("\nPrime numbers up to", n_alt)
+print("\nPrime numbers up to", n1)
 print(prime_numbers_alt)
