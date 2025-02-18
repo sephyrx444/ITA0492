@@ -1,0 +1,8 @@
+std1<-data.frame(regno=c(23,45,67),name=c("josi","joseph","jake"),ct1=c(67,90,87),ct2=c(65,98,78),gender=c("female","male","male"))
+std2<-data.frame(regno=c(43,12),name=c("sam","joe"),gender=c("female","male"),grade=c("A","S"))
+finaldata<-merge(std1,std2,all=TRUE)
+print("\nTOTAL Student Data:")
+print(finaldata)
+male_students <- finaldata[finaldata$gender == "male", ] 
+print("\nMale Student Data:")
+print(male_students)
