@@ -1,0 +1,7 @@
+upper <- toupper(letters)
+low<- letters[1:11]
+up <- upper[17:26]  
+last<- upper[20:24]
+print(paste(low))
+print(paste(up))
+print(paste(last))
