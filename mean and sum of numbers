@@ -1,0 +1,8 @@
+numbers1 <- 30:50
+print(numbers1)
+numbers2 <- 30:60 
+mean1 <- mean(numbers2)
+print("Mean of numbers from 30 to 60:", mean1))
+numbers3 <- 51:91 
+sum1 <- sum(numbers3)
+print("Sum of numbers from 51 to 91:", sum1)
